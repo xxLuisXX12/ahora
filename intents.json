@@ -1,0 +1,54 @@
+{
+    "intents":[
+        {
+            "tag": "saludo",
+            "patterns": ["hola", "qué tal", "cómo estás", "saludos"],
+            "responses": ["Hola!", "Buenos días!", "¿Cómo estás?"]
+        },
+        {
+            "tag": "nombre",
+            "patterns": ["cómo es tu nombre", "cómo te llamas"],
+            "responses": ["Me llamo Juan Pablo", "Mi nombre es Juan Pablo"]
+        },
+        {
+            "tag": "despedida",
+            "patterns": ["Hasta luego", "chau", "adios"],
+            "responses": ["Un gusto", "Hasta luego cuidate"]
+        },
+        {
+            "tag": "clima",
+            "patterns": ["qué tiempo hace", "cómo está el clima", "pronóstico del tiempo"],
+            "responses": ["El clima es variable. ¿En qué ciudad te encuentras?"]
+        },
+        {
+            "tag": "fecha",
+            "patterns": ["qué fecha es hoy", "fecha actual", "día de hoy"],
+            "responses": ["Hoy es {{fecha_actual}}."]
+        },
+        {
+            "tag": "chiste",
+            "patterns": ["cuéntame un chiste", "dime algo gracioso", "quiero reír"],
+            "responses": ["¿Por qué el libro de matemáticas está triste? Porque tiene demasiados problemas.", "¿Qué le dice una iguana a su hermana gemela? ¡Iguanita!"]
+        },
+        {
+            "tag": "consejo",
+            "patterns": ["dame un consejo", "necesito un consejo", "consejo del día"],
+            "responses": ["Recuerda que cada día es una nueva oportunidad para aprender algo nuevo.", "No te preocupes por el pasado, enfócate en el presente y mira hacia el futuro."]
+        },
+        {
+            "tag": "estado_animo",
+            "patterns": ["cómo te sientes", "cuál es tu estado de ánimo", "estás bien"],
+            "responses": ["Siempre estoy aquí para ayudarte. ¿Hay algo en lo que pueda asistirte?"]
+        },
+        {
+            "tag": "ayuda",
+            "patterns": ["Estoy mal", "necesito ayuda", "no entiendo"],
+            "responses": ["Lamento escuchar eso. ¿Puedo hacer algo para ayudarte?", "Estoy aquí para ayudarte. ¿En qué puedo asistirte?"]
+        },
+        {
+            "tag": "traduccion",
+            "patterns": ["traducir","traduciendo","traduce"],
+            "responses": ["n/"]
+        }
+    ]
+}
